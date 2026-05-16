@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DayNightManager : MonoBehaviour
 {
@@ -9,8 +10,10 @@ public class DayNightManager : MonoBehaviour
     public Image dayImage;
     public Sprite sunSprite;
     public Sprite moonSprite;
+    public TextMeshProUGUI dayText;
 
     public bool IsDay { get; private set; } = true;
+    public int CurrentDay { get; private set; } = 1;
 
     void Awake()
     {
@@ -18,9 +21,24 @@ public class DayNightManager : MonoBehaviour
         Instance = this;
     }
 
+    void Start()
+    {
+        UpdateUI();
+    }
+
     public void OnGoButtonPressed()
     {
         IsDay = !IsDay;
+
+        if (IsDay)
+            CurrentDay++;
+
+        UpdateUI();
+    }
+
+    void UpdateUI()
+    {
         dayImage.sprite = IsDay ? sunSprite : moonSprite;
+        dayText.text = $"Day {CurrentDay}";
     }
 }

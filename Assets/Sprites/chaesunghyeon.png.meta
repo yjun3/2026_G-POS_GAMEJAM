@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 3c9eea9cdc2101a4b932d51778a1ba5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 896603908790135920
+    second: chaesunghyeon_0
+  - first:
+      213: 6300712573814179415
+    second: chaesunghyeon_1
+  - first:
+      213: -2386917378890034476
+    second: chaesunghyeon_2
+  - first:
+      213: 2665334509498496120
+    second: chaesunghyeon_3
+  - first:
+      213: 6553524101540774764
+    second: chaesunghyeon_4
+  - first:
+      213: 2135167363155228040
+    second: chaesunghyeon_5
+  - first:
+      213: -5493741507212883019
+    second: chaesunghyeon_6
+  - first:
+      213: -3724187030160176113
+    second: chaesunghyeon_7
+  - first:
+      213: -7330423124030103891
+    second: chaesunghyeon_8
+  - first:
+      213: -4214577854915017679
+    second: chaesunghyeon_9
+  - first:
+      213: 5358845525531198706
+    second: chaesunghyeon_10
+  - first:
+      213: 4552417769606657869
+    second: chaesunghyeon_11
+  - first:
+      213: -5505376526168943944
+    second: chaesunghyeon_12
+  - first:
+      213: 9056668472915326948
+    second: chaesunghyeon_13
+  - first:
+      213: 5523178082505765983
+    second: chaesunghyeon_14
+  - first:
+      213: -8632442365208741107
+    second: chaesunghyeon_15
+  - first:
+      213: 7724901849410637643
+    second: chaesunghyeon_16
+  - first:
+      213: 2191753506847496664
+    second: chaesunghyeon_17
+  - first:
+      213: -1482882266226265070
+    second: chaesunghyeon_18
+  - first:
+      213: -5604475344661944298
+    second: chaesunghyeon_19
+  - first:
+      213: -7029791552031757020
+    second: chaesunghyeon_20
+  - first:
+      213: -6711365994819654936
+    second: chaesunghyeon_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chaesunghyeon_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 762
+        width: 176
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ca9af2180617c00800000000000000
+      internalID: 896603908790135920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 765
+        width: 177
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756080a04b0a07750800000000000000
+      internalID: 6300712573814179415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 763
+        width: 176
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d29d035a47ffded0800000000000000
+      internalID: -2386917378890034476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_3
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 757
+        width: 202
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8747f366d9b2df420800000000000000
+      internalID: 2665334509498496120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_4
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 756
+        width: 176
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c638c43c27bc2fa50800000000000000
+      internalID: 6553524101540774764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_5
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 753
+        width: 177
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885ffd87763a1ad10800000000000000
+      internalID: 2135167363155228040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_6
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 749
+        width: 180
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbc1cec43f42c3b0800000000000000
+      internalID: -5493741507212883019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_7
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 741
+        width: 191
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c8f2ea0a7015cc0800000000000000
+      internalID: -3724187030160176113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 324
+        width: 199
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae50e6c10b154a90800000000000000
+      internalID: -7330423124030103891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 324
+        width: 190
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134009f45cfc285c0800000000000000
+      internalID: -4214577854915017679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 323
+        width: 180
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f48a73fc917e5a40800000000000000
+      internalID: 5358845525531198706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 105
+        width: 67
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47b49a77df6d2f30800000000000000
+      internalID: 4552417769606657869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 104
+        width: 71
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b21dead739f893b0800000000000000
+      internalID: -5505376526168943944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_13
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 102
+        width: 73
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7f898edffbfad70800000000000000
+      internalID: 9056668472915326948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_14
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 107
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54baf6f33546ac40800000000000000
+      internalID: 5523178082505765983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_15
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 103
+        width: 73
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b33bdc767633880800000000000000
+      internalID: -8632442365208741107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 101
+        width: 71
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f01e2cd4d543b60800000000000000
+      internalID: 7724901849410637643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_17
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 105
+        width: 84
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d99cdab33caa6e10800000000000000
+      internalID: 2191753506847496664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_18
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 114
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2147bdd7f6ebb6be0800000000000000
+      internalID: -1482882266226265070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_19
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 120
+        width: 104
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6186df82e57e832b0800000000000000
+      internalID: -5604475344661944298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_20
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 126
+        width: 92
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dea1034d9217e90800000000000000
+      internalID: -7029791552031757020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaesunghyeon_21
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 134
+        width: 84
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea6321af207cd2a0800000000000000
+      internalID: -6711365994819654936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chaesunghyeon_0: 896603908790135920
+      chaesunghyeon_1: 6300712573814179415
+      chaesunghyeon_10: 5358845525531198706
+      chaesunghyeon_11: 4552417769606657869
+      chaesunghyeon_12: -5505376526168943944
+      chaesunghyeon_13: 9056668472915326948
+      chaesunghyeon_14: 5523178082505765983
+      chaesunghyeon_15: -8632442365208741107
+      chaesunghyeon_16: 7724901849410637643
+      chaesunghyeon_17: 2191753506847496664
+      chaesunghyeon_18: -1482882266226265070
+      chaesunghyeon_19: -5604475344661944298
+      chaesunghyeon_2: -2386917378890034476
+      chaesunghyeon_20: -7029791552031757020
+      chaesunghyeon_21: -6711365994819654936
+      chaesunghyeon_3: 2665334509498496120
+      chaesunghyeon_4: 6553524101540774764
+      chaesunghyeon_5: 2135167363155228040
+      chaesunghyeon_6: -5493741507212883019
+      chaesunghyeon_7: -3724187030160176113
+      chaesunghyeon_8: -7330423124030103891
+      chaesunghyeon_9: -4214577854915017679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

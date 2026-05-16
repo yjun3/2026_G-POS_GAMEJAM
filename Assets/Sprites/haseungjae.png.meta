@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 6c38e924f23a1ea49a0a8b0dd5ecddba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4081841996925851217
+    second: haseungjae_0
+  - first:
+      213: 161495385908820298
+    second: haseungjae_1
+  - first:
+      213: -700333104104543507
+    second: haseungjae_2
+  - first:
+      213: -4461661287642040364
+    second: haseungjae_3
+  - first:
+      213: -5239024077354837635
+    second: haseungjae_4
+  - first:
+      213: -1386846978070242278
+    second: haseungjae_5
+  - first:
+      213: -6486839132073448021
+    second: haseungjae_6
+  - first:
+      213: 4308046795894234397
+    second: haseungjae_7
+  - first:
+      213: -8249902315542245183
+    second: haseungjae_8
+  - first:
+      213: -4544680136543956712
+    second: haseungjae_9
+  - first:
+      213: -808626595709227260
+    second: haseungjae_10
+  - first:
+      213: -3876059974905888046
+    second: haseungjae_11
+  - first:
+      213: -8963462651786821329
+    second: haseungjae_12
+  - first:
+      213: -6086948267055638886
+    second: haseungjae_13
+  - first:
+      213: -8724348010272068943
+    second: haseungjae_14
+  - first:
+      213: -6055723508803523357
+    second: haseungjae_15
+  - first:
+      213: 6671527639433102211
+    second: haseungjae_16
+  - first:
+      213: -7331022643159156970
+    second: haseungjae_17
+  - first:
+      213: -9158314661717514531
+    second: haseungjae_18
+  - first:
+      213: 4911347765071007591
+    second: haseungjae_19
+  - first:
+      213: -2636650420082314159
+    second: haseungjae_20
+  - first:
+      213: -2605438056850769146
+    second: haseungjae_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: haseungjae_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 758
+        width: 174
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9a6ff84526a57c0800000000000000
+      internalID: -4081841996925851217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 761
+        width: 169
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a313afb7385ebba4ea6513065d5d7d88
+      internalID: -674208222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_2
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 760
+        width: 169
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3468b2d81e6b409cef753aa25b7d9
+      internalID: -774209589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_3
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 751
+        width: 199
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aecfdc2476688d41bd772745194266b
+      internalID: 1233419534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_4
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 749
+        width: 170
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deba5abc1234ac409023e6dec53e740
+      internalID: 591177597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_5
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 745
+        width: 169
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1168355622daa42976d68e2ba68f1b
+      internalID: 454550717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_6
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 743
+        width: 183
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e0980a5d838a344b67bca07d5c3a37
+      internalID: 117572906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_7
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 735
+        width: 194
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ff63e23c5af8147be4c0ced23198c6
+      internalID: 1007385555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 283
+        width: 202
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62af89937c3bdf24bb021db35955b35a
+      internalID: 603915459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 276
+        width: 194
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa64d37282dcc2843b5101b111acd3fe
+      internalID: 572893661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_10
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 279
+        width: 183
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b35ab52f305cd499d8ab18bc41318c
+      internalID: -457987478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 72
+        width: 65
+        height: 153
+      alignment: 9
+      pivot: {x: 0.28890145, y: 0.8318253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efd1b9dde7d4fd4f8507c74534d5153
+      internalID: -257435613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 70
+        width: 79
+        height: 153
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.8676982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5abb6eb3d7dd074aa7e41f875894754
+      internalID: -1200712468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_13
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 67
+        width: 70
+        height: 155
+      alignment: 9
+      pivot: {x: 0.53920335, y: 0.8541012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a326cfd8b01fd94bae275c23dbfd942
+      internalID: -400186709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 63
+        width: 112
+        height: 138
+      alignment: 9
+      pivot: {x: 0.81853324, y: 0.8281209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7628e36d2e58ec84a84ce7e5b4131ecb
+      internalID: 1644934792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_15
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 58
+        width: 70
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5588074, y: 0.85410136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eaf919818fa2f429eb2d269ea51d6a
+      internalID: -17824531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 57
+        width: 69
+        height: 153
+      alignment: 9
+      pivot: {x: 0.44034213, y: 0.8766662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e053192e8df3d684dadbfdc55f4566a0
+      internalID: -649399926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_17
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 59
+        width: 82
+        height: 150
+      alignment: 9
+      pivot: {x: 0.24899888, y: 0.82016635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe0b683444ab4459de548c9d7a7b16
+      internalID: -2016825637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_18
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 63
+        width: 89
+        height: 147
+      alignment: 9
+      pivot: {x: 0.22248892, y: 0.8453688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b2f7b7370402c4fb04a2f7966a2d7e
+      internalID: 1664435315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_19
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 62
+        width: 101
+        height: 143
+      alignment: 9
+      pivot: {x: 0.21470354, y: 0.84543425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c021e9595772846a095c2b82fcb170
+      internalID: -1646546248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_20
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 65
+        width: 90
+        height: 148
+      alignment: 9
+      pivot: {x: 0.21032579, y: 0.8708492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f5b3b10291ced45955a0f33dbad88a
+      internalID: 170599257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haseungjae_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 63
+        width: 82
+        height: 150
+      alignment: 9
+      pivot: {x: 0.23226407, y: 0.86590475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fdae4f30ef4d144abb1b36d2f2c3e7
+      internalID: -1075166739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2132e532c2763cd4a8a38a66e153ad80
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      haseungjae_0: -4081841996925851217
+      haseungjae_1: -674208222
+      haseungjae_10: -457987478
+      haseungjae_11: -257435613
+      haseungjae_12: -1200712468
+      haseungjae_13: -400186709
+      haseungjae_14: 1644934792
+      haseungjae_15: -17824531
+      haseungjae_16: -649399926
+      haseungjae_17: -2016825637
+      haseungjae_18: 1664435315
+      haseungjae_19: -1646546248
+      haseungjae_2: -774209589
+      haseungjae_20: 170599257
+      haseungjae_21: -1075166739
+      haseungjae_3: 1233419534
+      haseungjae_4: 591177597
+      haseungjae_5: 454550717
+      haseungjae_6: 117572906
+      haseungjae_7: 1007385555
+      haseungjae_8: 603915459
+      haseungjae_9: 572893661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
