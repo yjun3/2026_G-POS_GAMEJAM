@@ -12,7 +12,10 @@ public class UIManager : MonoBehaviour
     }
 
     bool isPaused = false;
+    bool isEquipOpen = false;
     public GameObject pauseMenu;
+    public GameObject equipMenu;
+    public GameObject blocker;
 
     void Update()
     {
@@ -22,9 +25,16 @@ public class UIManager : MonoBehaviour
 
     void TogglePause()
     {
+        if (isEquipOpen)
+        {
+            OnEquipCancelButtonClick();
+            return;
+        }
+
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0f : 1f;
         pauseMenu.SetActive(isPaused);
+        blocker.SetActive(isPaused);
     }
 
     public void OnResumeButtonClick()
@@ -32,11 +42,28 @@ public class UIManager : MonoBehaviour
         isPaused = false;
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
+        blocker.SetActive(false);
     }
 
     public void OnGoToTitleButtonClick()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("TitleScene");
+    }
+
+    public void OnEquipButtonClick()
+    {
+        isEquipOpen = !isEquipOpen;
+        Time.timeScale = isEquipOpen ? 0f : 1f;
+        equipMenu.SetActive(isEquipOpen);
+        blocker.SetActive(isEquipOpen);
+    }
+
+    public void OnEquipCancelButtonClick()
+    {
+        isEquipOpen = false;
+        Time.timeScale = 1f;
+        equipMenu.SetActive(false);
+        blocker.SetActive(false);
     }
 }
