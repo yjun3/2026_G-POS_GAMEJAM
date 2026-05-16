@@ -1,73 +1,73 @@
 fileFormatVersion: 2
-guid: 3c9eea9cdc2101a4b932d51778a1ba5d
+guid: ad189db2e8d834c48bfd842ae89110f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 896603908790135920
-    second: chaesunghyeon_0
+      213: 7214655806521867091
+    second: kimtaehee_0
   - first:
-      213: 6300712573814179415
-    second: chaesunghyeon_1
+      213: -5648305004213201186
+    second: kimtaehee_1
   - first:
-      213: -2386917378890034476
-    second: chaesunghyeon_2
+      213: -1120988838633341135
+    second: kimtaehee_2
   - first:
-      213: 2665334509498496120
-    second: chaesunghyeon_3
+      213: -2409700485025055408
+    second: kimtaehee_3
   - first:
-      213: 6553524101540774764
-    second: chaesunghyeon_4
+      213: 3998395472840674313
+    second: kimtaehee_4
   - first:
-      213: 2135167363155228040
-    second: chaesunghyeon_5
+      213: -6046755352730413835
+    second: kimtaehee_5
   - first:
-      213: -5493741507212883019
-    second: chaesunghyeon_6
+      213: 1825941220680104739
+    second: kimtaehee_6
   - first:
-      213: -3724187030160176113
-    second: chaesunghyeon_7
+      213: -3351623122266315799
+    second: kimtaehee_7
   - first:
-      213: -7330423124030103891
-    second: chaesunghyeon_8
+      213: -5115335236734165935
+    second: kimtaehee_8
   - first:
-      213: -4214577854915017679
-    second: chaesunghyeon_9
+      213: 6583628818197915299
+    second: kimtaehee_9
   - first:
-      213: 5358845525531198706
-    second: chaesunghyeon_10
+      213: 2067388785651965916
+    second: kimtaehee_10
   - first:
-      213: 4552417769606657869
-    second: chaesunghyeon_11
+      213: 5721305974195292280
+    second: kimtaehee_11
   - first:
-      213: -5505376526168943944
-    second: chaesunghyeon_12
+      213: -7351348899930566285
+    second: kimtaehee_12
   - first:
-      213: 9056668472915326948
-    second: chaesunghyeon_13
+      213: 5713544662254923362
+    second: kimtaehee_13
   - first:
-      213: 5523178082505765983
-    second: chaesunghyeon_14
+      213: -5104029302130894973
+    second: kimtaehee_14
   - first:
-      213: -8632442365208741107
-    second: chaesunghyeon_15
+      213: -4469707720151076900
+    second: kimtaehee_15
   - first:
-      213: 7724901849410637643
-    second: chaesunghyeon_16
+      213: -7682442691505555099
+    second: kimtaehee_16
   - first:
-      213: 2191753506847496664
-    second: chaesunghyeon_17
+      213: 4949674702515283485
+    second: kimtaehee_17
   - first:
-      213: -1482882266226265070
-    second: chaesunghyeon_18
+      213: 6616683765080104651
+    second: kimtaehee_18
   - first:
-      213: -5604475344661944298
-    second: chaesunghyeon_19
+      213: 9046001216490354122
+    second: kimtaehee_19
   - first:
-      213: -7029791552031757020
-    second: chaesunghyeon_20
+      213: 597374108773349199
+    second: kimtaehee_20
   - first:
-      213: -6711365994819654936
-    second: chaesunghyeon_21
+      213: -1701895686258954110
+    second: kimtaehee_21
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -176,13 +176,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chaesunghyeon_0
+      name: kimtaehee_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 762
+        x: 14
+        y: 770
         width: 176
-        height: 412
+        height: 401
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07ca9af2180617c00800000000000000
-      internalID: 896603908790135920
+      spriteID: 35bf17c2b3b9f1460800000000000000
+      internalID: 7214655806521867091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_1
+      name: kimtaehee_1
       rect:
         serializedVersion: 2
-        x: 237
-        y: 765
-        width: 177
-        height: 412
+        x: 222
+        y: 771
+        width: 176
+        height: 401
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +213,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 756080a04b0a07750800000000000000
-      internalID: 6300712573814179415
+      spriteID: ed69fc056803d91b0800000000000000
+      internalID: -5648305004213201186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_2
+      name: kimtaehee_2
       rect:
         serializedVersion: 2
-        x: 452
+        x: 434
+        y: 767
+        width: 176
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ff41c27927170f0800000000000000
+      internalID: -1120988838633341135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kimtaehee_3
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 762
+        width: 202
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dbefe0d260f8ed0800000000000000
+      internalID: -2409700485025055408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kimtaehee_4
+      rect:
+        serializedVersion: 2
+        x: 908
         y: 763
         width: 176
-        height: 414
+        height: 402
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,42 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d29d035a47ffded0800000000000000
-      internalID: -2386917378890034476
+      spriteID: 90cc2368f772d7730800000000000000
+      internalID: 3998395472840674313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_3
+      name: kimtaehee_5
       rect:
         serializedVersion: 2
-        x: 653
-        y: 757
-        width: 202
-        height: 414
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8747f366d9b2df420800000000000000
-      internalID: 2665334509498496120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaesunghyeon_4
-      rect:
-        serializedVersion: 2
-        x: 897
-        y: 756
+        x: 1130
+        y: 764
         width: 176
-        height: 414
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c638c43c27bc2fa50800000000000000
-      internalID: 6553524101540774764
+      spriteID: 5f4dfc43b0c951ca0800000000000000
+      internalID: -6046755352730413835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_5
+      name: kimtaehee_6
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 753
-        width: 177
-        height: 413
+        x: 1349
+        y: 758
+        width: 186
+        height: 401
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 885ffd87763a1ad10800000000000000
-      internalID: 2135167363155228040
+      spriteID: 32b716faddb075910800000000000000
+      internalID: 1825941220680104739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_6
+      name: kimtaehee_7
       rect:
         serializedVersion: 2
-        x: 1311
+        x: 1555
         y: 749
-        width: 180
-        height: 412
+        width: 197
+        height: 402
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +345,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bbc1cec43f42c3b0800000000000000
-      internalID: -5493741507212883019
+      spriteID: 9e3a4582784ac71d0800000000000000
+      internalID: -3351623122266315799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_7
+      name: kimtaehee_8
       rect:
         serializedVersion: 2
-        x: 1517
-        y: 741
-        width: 191
-        height: 414
+        x: 11
+        y: 337
+        width: 205
+        height: 399
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,20 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0c8f2ea0a7015cc0800000000000000
-      internalID: -3724187030160176113
+      spriteID: 15cdb6354bda209b0800000000000000
+      internalID: -5115335236734165935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_8
+      name: kimtaehee_9
       rect:
         serializedVersion: 2
-        x: 7
-        y: 324
-        width: 199
-        height: 411
+        x: 246
+        y: 335
+        width: 196
+        height: 402
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae50e6c10b154a90800000000000000
-      internalID: -7330423124030103891
+      spriteID: 3a626b1578fbd5b50800000000000000
+      internalID: 6583628818197915299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_9
+      name: kimtaehee_10
       rect:
         serializedVersion: 2
-        x: 225
-        y: 324
-        width: 190
-        height: 413
+        x: 478
+        y: 334
+        width: 185
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,272 +411,250 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 134009f45cfc285c0800000000000000
-      internalID: -4214577854915017679
+      spriteID: cdf5965a527d0bc10800000000000000
+      internalID: 2067388785651965916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_10
+      name: kimtaehee_11
       rect:
         serializedVersion: 2
-        x: 443
-        y: 323
-        width: 180
-        height: 412
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f48a73fc917e5a40800000000000000
-      internalID: 5358845525531198706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaesunghyeon_11
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 105
+        x: 55
+        y: 96
         width: 67
         height: 153
       alignment: 9
-      pivot: {x: 0.21328405, y: 0.8676983}
+      pivot: {x: 0.29520267, y: 0.8407942}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d47b49a77df6d2f30800000000000000
-      internalID: 4552417769606657869
+      spriteID: 8780b338879266f40800000000000000
+      internalID: 5721305974195292280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_12
+      name: kimtaehee_12
       rect:
         serializedVersion: 2
-        x: 178
-        y: 104
+        x: 173
+        y: 95
         width: 71
         height: 156
       alignment: 9
-      pivot: {x: 0.40337038, y: 0.878219}
+      pivot: {x: 0.42269638, y: 0.843036}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b21dead739f893b0800000000000000
-      internalID: -5505376526168943944
+      spriteID: 3711ea7ef13caf990800000000000000
+      internalID: -7351348899930566285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_13
+      name: kimtaehee_13
       rect:
         serializedVersion: 2
-        x: 283
-        y: 102
-        width: 73
+        x: 294
+        y: 94
+        width: 74
         height: 157
       alignment: 9
-      pivot: {x: 0.5187963, y: 0.875809}
+      pivot: {x: 0.53708464, y: 0.8321108}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e7f898edffbfad70800000000000000
-      internalID: 9056668472915326948
+      spriteID: 26ea80249969a4f40800000000000000
+      internalID: 5713544662254923362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_14
+      name: kimtaehee_14
       rect:
         serializedVersion: 2
-        x: 391
-        y: 107
+        x: 411
+        y: 92
         width: 114
-        height: 141
+        height: 142
       alignment: 9
-      pivot: {x: 0.8731261, y: 0.88926005}
+      pivot: {x: 0.8009084, y: 0.80921495}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f54baf6f33546ac40800000000000000
-      internalID: 5523178082505765983
+      spriteID: 3879d4b5468da29b0800000000000000
+      internalID: -5104029302130894973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_15
+      name: kimtaehee_15
       rect:
         serializedVersion: 2
-        x: 538
-        y: 103
+        x: 577
+        y: 91
         width: 73
         height: 157
       alignment: 9
-      pivot: {x: 0.51879716, y: 0.8758101}
+      pivot: {x: 0.53759265, y: 0.81463164}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0b33bdc767633880800000000000000
-      internalID: -8632442365208741107
+      spriteID: cdfe292928868f1c0800000000000000
+      internalID: -4469707720151076900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_16
+      name: kimtaehee_16
       rect:
         serializedVersion: 2
-        x: 648
-        y: 101
+        x: 687
+        y: 94
         width: 71
         height: 156
       alignment: 9
-      pivot: {x: 0.44202435, y: 0.89581037}
+      pivot: {x: 0.4420235, y: 0.8518312}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4f01e2cd4d543b60800000000000000
-      internalID: 7724901849410637643
+      spriteID: 569f38d431b726590800000000000000
+      internalID: -7682442691505555099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_17
+      name: kimtaehee_17
       rect:
         serializedVersion: 2
-        x: 761
-        y: 105
+        x: 803
+        y: 97
         width: 84
         height: 152
       alignment: 9
-      pivot: {x: 0.18963623, y: 0.88817173}
+      pivot: {x: 0.25497508, y: 0.8249812}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d99cdab33caa6e10800000000000000
-      internalID: 2191753506847496664
+      spriteID: d16292ddae6c0b440800000000000000
+      internalID: 4949674702515283485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_18
+      name: kimtaehee_18
       rect:
         serializedVersion: 2
-        x: 886
-        y: 114
-        width: 91
+        x: 932
+        y: 105
+        width: 92
         height: 150
       alignment: 9
-      pivot: {x: 0.18335229, y: 0.8933481}
+      pivot: {x: 0.246452, y: 0.8293139}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2147bdd7f6ebb6be0800000000000000
-      internalID: -1482882266226265070
+      spriteID: bce91b0e3de23db50800000000000000
+      internalID: 6616683765080104651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_19
+      name: kimtaehee_19
       rect:
         serializedVersion: 2
-        x: 1015
-        y: 120
+        x: 1061
+        y: 112
         width: 104
-        height: 146
+        height: 145
       alignment: 9
-      pivot: {x: 0.18335196, y: 0.8759294}
+      pivot: {x: 0.22293326, y: 0.81228036}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6186df82e57e832b0800000000000000
-      internalID: -5604475344661944298
+      spriteID: ac5b8aabd2ad98d70800000000000000
+      internalID: 9046001216490354122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_20
+      name: kimtaehee_20
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 126
+        x: 1201
+        y: 114
         width: 92
-        height: 151
+        height: 150
       alignment: 9
-      pivot: {x: 0.17187898, y: 0.8907426}
+      pivot: {x: 0.23153819, y: 0.82931435}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42dea1034d9217e90800000000000000
-      internalID: -7029791552031757020
+      spriteID: f47737f369c4a4800800000000000000
+      internalID: 597374108773349199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_21
+      name: kimtaehee_21
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 134
+        x: 1340
+        y: 120
         width: 84
         height: 152
       alignment: 9
-      pivot: {x: 0.18963477, y: 0.9062261}
+      pivot: {x: 0.23864019, y: 0.8430359}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ea6321af207cd2a0800000000000000
-      internalID: -6711365994819654936
+      spriteID: 280f3cfe3e6a168e0800000000000000
+      internalID: -1701895686258954110
       vertices: []
       indices: 
       edges: []
@@ -663,7 +663,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f32abc537dba5c4479f70121d4f2388b
+    spriteID: 431b716c1d0cc2540a2106fe2a9aae89
     internalID: 0
     vertices: []
     indices: 
@@ -673,28 +673,28 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      chaesunghyeon_0: 896603908790135920
-      chaesunghyeon_1: 6300712573814179415
-      chaesunghyeon_10: 5358845525531198706
-      chaesunghyeon_11: 4552417769606657869
-      chaesunghyeon_12: -5505376526168943944
-      chaesunghyeon_13: 9056668472915326948
-      chaesunghyeon_14: 5523178082505765983
-      chaesunghyeon_15: -8632442365208741107
-      chaesunghyeon_16: 7724901849410637643
-      chaesunghyeon_17: 2191753506847496664
-      chaesunghyeon_18: -1482882266226265070
-      chaesunghyeon_19: -5604475344661944298
-      chaesunghyeon_2: -2386917378890034476
-      chaesunghyeon_20: -7029791552031757020
-      chaesunghyeon_21: -6711365994819654936
-      chaesunghyeon_3: 2665334509498496120
-      chaesunghyeon_4: 6553524101540774764
-      chaesunghyeon_5: 2135167363155228040
-      chaesunghyeon_6: -5493741507212883019
-      chaesunghyeon_7: -3724187030160176113
-      chaesunghyeon_8: -7330423124030103891
-      chaesunghyeon_9: -4214577854915017679
+      kimtaehee_0: 7214655806521867091
+      kimtaehee_1: -5648305004213201186
+      kimtaehee_10: 2067388785651965916
+      kimtaehee_11: 5721305974195292280
+      kimtaehee_12: -7351348899930566285
+      kimtaehee_13: 5713544662254923362
+      kimtaehee_14: -5104029302130894973
+      kimtaehee_15: -4469707720151076900
+      kimtaehee_16: -7682442691505555099
+      kimtaehee_17: 4949674702515283485
+      kimtaehee_18: 6616683765080104651
+      kimtaehee_19: 9046001216490354122
+      kimtaehee_2: -1120988838633341135
+      kimtaehee_20: 597374108773349199
+      kimtaehee_21: -1701895686258954110
+      kimtaehee_3: -2409700485025055408
+      kimtaehee_4: 3998395472840674313
+      kimtaehee_5: -6046755352730413835
+      kimtaehee_6: 1825941220680104739
+      kimtaehee_7: -3351623122266315799
+      kimtaehee_8: -5115335236734165935
+      kimtaehee_9: 6583628818197915299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,73 +1,73 @@
 fileFormatVersion: 2
-guid: 3c9eea9cdc2101a4b932d51778a1ba5d
+guid: 7d1d0aa630b08094f8b658d31fd4915e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 896603908790135920
-    second: chaesunghyeon_0
+      213: -8021966148870086352
+    second: joosangwoo_0
   - first:
-      213: 6300712573814179415
-    second: chaesunghyeon_1
+      213: -1867902634606721197
+    second: joosangwoo_1
   - first:
-      213: -2386917378890034476
-    second: chaesunghyeon_2
+      213: 9036527894108209247
+    second: joosangwoo_2
   - first:
-      213: 2665334509498496120
-    second: chaesunghyeon_3
+      213: -3073578362095178104
+    second: joosangwoo_3
   - first:
-      213: 6553524101540774764
-    second: chaesunghyeon_4
+      213: -4738841361242369279
+    second: joosangwoo_4
   - first:
-      213: 2135167363155228040
-    second: chaesunghyeon_5
+      213: 3835867890649180710
+    second: joosangwoo_5
   - first:
-      213: -5493741507212883019
-    second: chaesunghyeon_6
+      213: 8567925262495265313
+    second: joosangwoo_6
   - first:
-      213: -3724187030160176113
-    second: chaesunghyeon_7
+      213: 285805209325124013
+    second: joosangwoo_7
   - first:
-      213: -7330423124030103891
-    second: chaesunghyeon_8
+      213: -6013239589931661840
+    second: joosangwoo_8
   - first:
-      213: -4214577854915017679
-    second: chaesunghyeon_9
+      213: 2277838936827958738
+    second: joosangwoo_9
   - first:
-      213: 5358845525531198706
-    second: chaesunghyeon_10
+      213: -7682831583958003462
+    second: joosangwoo_10
   - first:
-      213: 4552417769606657869
-    second: chaesunghyeon_11
+      213: 5050726664092664139
+    second: joosangwoo_11
   - first:
-      213: -5505376526168943944
-    second: chaesunghyeon_12
+      213: -9112598207855861263
+    second: joosangwoo_12
   - first:
-      213: 9056668472915326948
-    second: chaesunghyeon_13
+      213: -1112742908540348717
+    second: joosangwoo_13
   - first:
-      213: 5523178082505765983
-    second: chaesunghyeon_14
+      213: -1899938962151812740
+    second: joosangwoo_14
   - first:
-      213: -8632442365208741107
-    second: chaesunghyeon_15
+      213: 1569842166614148907
+    second: joosangwoo_15
   - first:
-      213: 7724901849410637643
-    second: chaesunghyeon_16
+      213: -5332857893973821267
+    second: joosangwoo_16
   - first:
-      213: 2191753506847496664
-    second: chaesunghyeon_17
+      213: 2728344034592644309
+    second: joosangwoo_17
   - first:
-      213: -1482882266226265070
-    second: chaesunghyeon_18
+      213: -6201436992458905626
+    second: joosangwoo_18
   - first:
-      213: -5604475344661944298
-    second: chaesunghyeon_19
+      213: 1179409558718587281
+    second: joosangwoo_19
   - first:
-      213: -7029791552031757020
-    second: chaesunghyeon_20
+      213: 1613978722049856792
+    second: joosangwoo_20
   - first:
-      213: -6711365994819654936
-    second: chaesunghyeon_21
+      213: -1563523163833160852
+    second: joosangwoo_21
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -176,57 +176,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chaesunghyeon_0
+      name: joosangwoo_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 762
-        width: 176
-        height: 412
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07ca9af2180617c00800000000000000
-      internalID: 896603908790135920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaesunghyeon_1
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 765
-        width: 177
-        height: 412
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 756080a04b0a07750800000000000000
-      internalID: 6300712573814179415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaesunghyeon_2
-      rect:
-        serializedVersion: 2
-        x: 452
+        x: 8
         y: 763
-        width: 176
-        height: 414
+        width: 170
+        height: 406
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d29d035a47ffded0800000000000000
-      internalID: -2386917378890034476
+      spriteID: 031e3603a404ca090800000000000000
+      internalID: -8021966148870086352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_3
+      name: joosangwoo_1
       rect:
         serializedVersion: 2
-        x: 653
-        y: 757
-        width: 202
-        height: 414
+        x: 209
+        y: 763
+        width: 164
+        height: 407
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8747f366d9b2df420800000000000000
-      internalID: 2665334509498496120
+      spriteID: 357004d4370e316e0800000000000000
+      internalID: -1867902634606721197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_4
+      name: joosangwoo_2
       rect:
         serializedVersion: 2
-        x: 897
-        y: 756
-        width: 176
-        height: 414
+        x: 407
+        y: 762
+        width: 166
+        height: 407
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c638c43c27bc2fa50800000000000000
-      internalID: 6553524101540774764
+      spriteID: f508a3bfd32386d70800000000000000
+      internalID: 9036527894108209247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_5
+      name: joosangwoo_3
       rect:
         serializedVersion: 2
-        x: 1105
+        x: 595
         y: 753
-        width: 177
-        height: 413
+        width: 201
+        height: 408
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +257,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 885ffd87763a1ad10800000000000000
-      internalID: 2135167363155228040
+      spriteID: 88e6df1a3c47855d0800000000000000
+      internalID: -3073578362095178104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_6
+      name: joosangwoo_4
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 749
+        x: 837
+        y: 753
+        width: 166
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1035830b3e04c3eb0800000000000000
+      internalID: -4738841361242369279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joosangwoo_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 751
+        width: 164
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62aa873f58dbb3530800000000000000
+      internalID: 3835867890649180710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joosangwoo_6
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 755
         width: 180
-        height: 412
+        height: 406
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,64 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bbc1cec43f42c3b0800000000000000
-      internalID: -5493741507212883019
+      spriteID: 1223025a1a267e670800000000000000
+      internalID: 8567925262495265313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_7
+      name: joosangwoo_7
       rect:
         serializedVersion: 2
-        x: 1517
-        y: 741
-        width: 191
-        height: 414
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0c8f2ea0a7015cc0800000000000000
-      internalID: -3724187030160176113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaesunghyeon_8
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 324
-        width: 199
-        height: 411
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dae50e6c10b154a90800000000000000
-      internalID: -7330423124030103891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaesunghyeon_9
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 324
+        x: 1451
+        y: 747
         width: 190
-        height: 413
+        height: 407
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +345,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 134009f45cfc285c0800000000000000
-      internalID: -4214577854915017679
+      spriteID: da9b7c8d25267f300800000000000000
+      internalID: 285805209325124013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_10
+      name: joosangwoo_8
       rect:
         serializedVersion: 2
-        x: 443
-        y: 323
+        x: 9
+        y: 331
+        width: 199
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5cec4d37eac8ca0800000000000000
+      internalID: -6013239589931661840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joosangwoo_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 329
+        width: 190
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d51f2dc1728c9f10800000000000000
+      internalID: 2277838936827958738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joosangwoo_10
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 329
         width: 180
-        height: 412
+        height: 406
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,250 +411,250 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f48a73fc917e5a40800000000000000
-      internalID: 5358845525531198706
+      spriteID: af018093169116590800000000000000
+      internalID: -7682831583958003462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_11
+      name: joosangwoo_11
       rect:
         serializedVersion: 2
-        x: 65
-        y: 105
+        x: 73
+        y: 97
         width: 67
         height: 153
       alignment: 9
-      pivot: {x: 0.21328405, y: 0.8676983}
+      pivot: {x: 0.27472356, y: 0.85873014}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d47b49a77df6d2f30800000000000000
-      internalID: 4552417769606657869
+      spriteID: b4146de1429c71640800000000000000
+      internalID: 5050726664092664139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_12
+      name: joosangwoo_12
       rect:
         serializedVersion: 2
-        x: 178
-        y: 104
+        x: 181
+        y: 97
         width: 71
         height: 156
       alignment: 9
-      pivot: {x: 0.40337038, y: 0.878219}
+      pivot: {x: 0.42269662, y: 0.8606268}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b21dead739f893b0800000000000000
-      internalID: -5505376526168943944
+      spriteID: 1f1e3e7e53c898180800000000000000
+      internalID: -9112598207855861263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_13
+      name: joosangwoo_13
       rect:
         serializedVersion: 2
-        x: 283
-        y: 102
-        width: 73
+        x: 292
+        y: 93
+        width: 74
         height: 157
       alignment: 9
-      pivot: {x: 0.5187963, y: 0.875809}
+      pivot: {x: 0.5, y: 0.8408507}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e7f898edffbfad70800000000000000
-      internalID: 9056668472915326948
+      spriteID: 3d61e12683ebe80f0800000000000000
+      internalID: -1112742908540348717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_14
+      name: joosangwoo_14
       rect:
         serializedVersion: 2
-        x: 391
-        y: 107
+        x: 410
+        y: 92
         width: 114
-        height: 141
+        height: 142
       alignment: 9
-      pivot: {x: 0.8731261, y: 0.88926005}
+      pivot: {x: 0.8370174, y: 0.8382042}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f54baf6f33546ac40800000000000000
-      internalID: 5523178082505765983
+      spriteID: c71540a849f02a5e0800000000000000
+      internalID: -1899938962151812740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_15
+      name: joosangwoo_15
       rect:
         serializedVersion: 2
-        x: 538
-        y: 103
+        x: 571
+        y: 88
         width: 73
         height: 157
       alignment: 9
-      pivot: {x: 0.51879716, y: 0.8758101}
+      pivot: {x: 0.55639064, y: 0.84959024}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0b33bdc767633880800000000000000
-      internalID: -8632442365208741107
+      spriteID: b274776122339c510800000000000000
+      internalID: 1569842166614148907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_16
+      name: joosangwoo_16
       rect:
         serializedVersion: 2
-        x: 648
-        y: 101
+        x: 686
+        y: 90
         width: 71
         height: 156
       alignment: 9
-      pivot: {x: 0.44202435, y: 0.89581037}
+      pivot: {x: 0.42269683, y: 0.8430359}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4f01e2cd4d543b60800000000000000
-      internalID: 7724901849410637643
+      spriteID: da87d080002edf5b0800000000000000
+      internalID: -5332857893973821267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_17
+      name: joosangwoo_17
       rect:
         serializedVersion: 2
-        x: 761
-        y: 105
+        x: 802
+        y: 93
         width: 84
         height: 152
       alignment: 9
-      pivot: {x: 0.18963623, y: 0.88817173}
+      pivot: {x: 0.22230457, y: 0.8249815}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d99cdab33caa6e10800000000000000
-      internalID: 2191753506847496664
+      spriteID: 5dc53fea1760dd520800000000000000
+      internalID: 2728344034592644309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_18
+      name: joosangwoo_18
       rect:
         serializedVersion: 2
-        x: 886
-        y: 114
-        width: 91
+        x: 926
+        y: 102
+        width: 92
         height: 150
       alignment: 9
-      pivot: {x: 0.18335229, y: 0.8933481}
+      pivot: {x: 0.23153754, y: 0.8384614}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2147bdd7f6ebb6be0800000000000000
-      internalID: -1482882266226265070
+      spriteID: 6e7258779e110f9a0800000000000000
+      internalID: -6201436992458905626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_19
+      name: joosangwoo_19
       rect:
         serializedVersion: 2
-        x: 1015
-        y: 120
+        x: 1059
+        y: 108
         width: 104
         height: 146
       alignment: 9
-      pivot: {x: 0.18335196, y: 0.8759294}
+      pivot: {x: 0.20974027, y: 0.81954044}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6186df82e57e832b0800000000000000
-      internalID: -5604475344661944298
+      spriteID: 1912f10beba1e5010800000000000000
+      internalID: 1179409558718587281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_20
+      name: joosangwoo_20
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 126
+        x: 1200
+        y: 109
         width: 92
         height: 151
       alignment: 9
-      pivot: {x: 0.17187898, y: 0.8907426}
+      pivot: {x: 0.23153819, y: 0.83622015}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42dea1034d9217e90800000000000000
-      internalID: -7029791552031757020
+      spriteID: 81512d2b811066610800000000000000
+      internalID: 1613978722049856792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaesunghyeon_21
+      name: joosangwoo_21
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 134
+        x: 1337
+        y: 112
         width: 84
         height: 152
       alignment: 9
-      pivot: {x: 0.18963477, y: 0.9062261}
+      pivot: {x: 0.25497583, y: 0.8520628}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ea6321af207cd2a0800000000000000
-      internalID: -6711365994819654936
+      spriteID: c6b21a567ff3d4ae0800000000000000
+      internalID: -1563523163833160852
       vertices: []
       indices: 
       edges: []
@@ -663,7 +663,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f32abc537dba5c4479f70121d4f2388b
+    spriteID: 9d3088cadd4c06c458670b26803ec095
     internalID: 0
     vertices: []
     indices: 
@@ -673,28 +673,28 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      chaesunghyeon_0: 896603908790135920
-      chaesunghyeon_1: 6300712573814179415
-      chaesunghyeon_10: 5358845525531198706
-      chaesunghyeon_11: 4552417769606657869
-      chaesunghyeon_12: -5505376526168943944
-      chaesunghyeon_13: 9056668472915326948
-      chaesunghyeon_14: 5523178082505765983
-      chaesunghyeon_15: -8632442365208741107
-      chaesunghyeon_16: 7724901849410637643
-      chaesunghyeon_17: 2191753506847496664
-      chaesunghyeon_18: -1482882266226265070
-      chaesunghyeon_19: -5604475344661944298
-      chaesunghyeon_2: -2386917378890034476
-      chaesunghyeon_20: -7029791552031757020
-      chaesunghyeon_21: -6711365994819654936
-      chaesunghyeon_3: 2665334509498496120
-      chaesunghyeon_4: 6553524101540774764
-      chaesunghyeon_5: 2135167363155228040
-      chaesunghyeon_6: -5493741507212883019
-      chaesunghyeon_7: -3724187030160176113
-      chaesunghyeon_8: -7330423124030103891
-      chaesunghyeon_9: -4214577854915017679
+      joosangwoo_0: -8021966148870086352
+      joosangwoo_1: -1867902634606721197
+      joosangwoo_10: -7682831583958003462
+      joosangwoo_11: 5050726664092664139
+      joosangwoo_12: -9112598207855861263
+      joosangwoo_13: -1112742908540348717
+      joosangwoo_14: -1899938962151812740
+      joosangwoo_15: 1569842166614148907
+      joosangwoo_16: -5332857893973821267
+      joosangwoo_17: 2728344034592644309
+      joosangwoo_18: -6201436992458905626
+      joosangwoo_19: 1179409558718587281
+      joosangwoo_2: 9036527894108209247
+      joosangwoo_20: 1613978722049856792
+      joosangwoo_21: -1563523163833160852
+      joosangwoo_3: -3073578362095178104
+      joosangwoo_4: -4738841361242369279
+      joosangwoo_5: 3835867890649180710
+      joosangwoo_6: 8567925262495265313
+      joosangwoo_7: 285805209325124013
+      joosangwoo_8: -6013239589931661840
+      joosangwoo_9: 2277838936827958738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
