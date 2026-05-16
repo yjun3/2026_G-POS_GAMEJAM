@@ -2,7 +2,7 @@
 
 ## :pushpin: Description
 
-G-POS 2026 Game Jam Project ""
+G-POS 2026 Game Jam Project 
 
 ## :fireworks: Screenshots
 
@@ -12,7 +12,7 @@ TBD
 
 1. 프로젝트 관리 : Notion, GitHub
 2. 커뮤니케이션 : Notion, Discord
-3. 개발환경 : Unity 6000.3.4f1
+3. 개발환경 : Unity 6000.3.8f1
 
 ## :card_file_box: Packages
 
