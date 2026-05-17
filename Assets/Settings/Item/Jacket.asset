@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd2820f76eb6284cbcceaeff7fc8746, type: 3}
+  m_Name: Jacket
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Jacket
+  description: It was essential for first semester. (Not for someone)\n[Imm +15 / Def +20]
+  icon: {fileID: 6302570585876076669, guid: a53ac933bf8a6644a953a2e385141e75, type: 3}
+  hpMod: 0
+  luckMod: 0
+  immunityMod: 15
+  defenseMod: 20
+  isBreakable: 1

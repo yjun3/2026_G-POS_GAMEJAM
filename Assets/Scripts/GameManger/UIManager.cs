@@ -17,8 +17,20 @@ public class UIManager : MonoBehaviour
     public GameObject equipMenu;
     public GameObject blocker;
 
+    public void ResetUI()
+    {
+        isPaused = false;
+        isEquipOpen = false;
+        Time.timeScale = 1f;
+        pauseMenu.SetActive(false);
+        equipMenu.SetActive(false);
+        blocker.SetActive(false);
+    }
+
     void Update()
     {
+        if (GameManager.Instance != null && !GameManager.Instance.CanInput) return;
+        if (DayNightManager.Instance != null && DayNightManager.Instance.IsTransitioning) return;
         if (Input.GetKeyDown(KeyCode.Escape))
             TogglePause();
     }

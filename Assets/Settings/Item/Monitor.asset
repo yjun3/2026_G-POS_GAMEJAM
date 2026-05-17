@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd2820f76eb6284cbcceaeff7fc8746, type: 3}
+  m_Name: Monitor
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Monitor
+  description: There's 4 monitors in this room. But we can use the only cheapest one.\n[Def +35 / Luck -10]
+  icon: {fileID: 4795476489743708082, guid: 3756986be4d2c5348b1545d26be6b81b, type: 3}
+  hpMod: 0
+  luckMod: -10
+  immunityMod: 0
+  defenseMod: 35
+  isBreakable: 1
