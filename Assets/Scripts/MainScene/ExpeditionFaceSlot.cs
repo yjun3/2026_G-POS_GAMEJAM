@@ -22,8 +22,9 @@ public class ExpeditionFaceSlot : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData e)
     {
         if (e.pointerDrag == null) return;
-        if (e.pointerDrag.TryGetComponent<CharacterFaceDraggable>(out var draggable))
-            Assign(draggable);
+        if (!e.pointerDrag.TryGetComponent<CharacterFaceDraggable>(out var draggable)) return;
+        if (CharacterManager.Instance != null && !CharacterManager.Instance.IsAlive(draggable)) return;
+        Assign(draggable);
     }
 
     public void Assign(CharacterFaceDraggable draggable)
@@ -43,5 +44,6 @@ public class ExpeditionFaceSlot : MonoBehaviour, IDropHandler
         _face.color = Color.white;
         nameText.text = "";
         propertyText.text = "";
+        if (statsUI != null) statsUI.SetCharacter(null);
     }
 }

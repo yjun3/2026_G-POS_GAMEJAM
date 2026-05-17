@@ -19,7 +19,8 @@ public class DayNightManager : MonoBehaviour
 
     [Header("Fade")]
     public Image fadeImage;
-    public float fadeDuration = 0.5f;
+    public float fadeDuration = 2f;
+    public float nightBlackHoldDuration = 2f;
 
     [Header("References")]
     public ExpeditionFaceSlot faceSlot;
@@ -28,6 +29,11 @@ public class DayNightManager : MonoBehaviour
     public bool IsDay { get; private set; } = true;
     public int CurrentDay { get; private set; } = 1;
     public bool IsTransitioning { get; private set; } = false;
+
+    EncounterResultData _lastResult;
+    CharacterFaceDraggable _expeditionCharacter;
+    ItemData _expeditionItem;
+    static readonly WaitForSecondsRealtime ResultDelay = new(0.3f);
 
     void Awake()
     {
@@ -59,6 +65,7 @@ public class DayNightManager : MonoBehaviour
     {
         if (IsTransitioning) return;
         if (IsDay && (faceSlot == null || faceSlot.AssignedCharacter == null)) return;
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayGo();
         StartCoroutine(TransitionRoutine());
     }
 
@@ -77,23 +84,50 @@ public class DayNightManager : MonoBehaviour
 
         if (!IsDay)
         {
-            RunNightEncounter();
+            // 낮→밤: 출발 정보 저장 후 슬롯 초기화
+            _expeditionCharacter = faceSlot != null ? faceSlot.AssignedCharacter : null;
+            _expeditionItem      = itemSelector != null ? itemSelector.SelectedItem : null;
+            ClearExpedition();
         }
         else
         {
+            // 밤→낮: 귀환 → 인카운터 실행
+            RunReturnEncounter();
             CurrentDay++;
-            if (CurrentDay > GameManager.Instance.MaxDays)
-            {
-                GameManager.Instance.TriggerEnding();
-                yield break;
-            }
+
+            // 암전 중 효과음 + 홀드
+            if (AudioManager.Instance != null) AudioManager.Instance.PlayHit();
+            yield return new WaitForSecondsRealtime(nightBlackHoldDuration);
         }
 
         UpdateUI();
 
         yield return StartCoroutine(FadeRoutine(1f, 0f));
 
+        // 결과창 먼저 표시
+        if (IsDay && _lastResult != null && ResultMenuUI.Instance != null)
+        {
+            yield return ResultDelay;
+            ResultMenuUI.Instance.Show(_lastResult);
+            _lastResult = null;
+            yield return new WaitUntil(() => !ResultMenuUI.Instance.IsShowing);
+        }
+
         IsTransitioning = false;
+
+        // 결과창 닫힌 후 엔딩 체크
+        if (!IsDay) yield break;
+
+        if (GameManager.Instance.ConsumeBadEndingPending())
+        {
+            GameManager.Instance.TriggerBadEnding();
+            yield break;
+        }
+
+        if (CurrentDay > GameManager.Instance.MaxDays)
+        {
+            GameManager.Instance.TriggerEnding();
+        }
     }
 
     IEnumerator FadeRoutine(float from, float to)
@@ -110,16 +144,31 @@ public class DayNightManager : MonoBehaviour
         fadeImage.color = new Color(0, 0, 0, to);
     }
 
-    void RunNightEncounter()
+    void RunReturnEncounter()
     {
-        if (faceSlot == null || faceSlot.AssignedCharacter == null) return;
+        if (_expeditionCharacter == null)
+        {
+            Debug.LogWarning("[DayNight] 귀환 캐릭터 없음 — 출발 시 편성이 비어있었음");
+            return;
+        }
+        if (EncounterManager.Instance == null)
+        {
+            Debug.LogError("[DayNight] EncounterManager.Instance is null");
+            return;
+        }
 
-        var result = EncounterManager.Instance.RunEncounter(
-            faceSlot.AssignedCharacter,
-            itemSelector != null ? itemSelector.SelectedItem : null
+        _lastResult = EncounterManager.Instance.RunEncounter(
+            _expeditionCharacter,
+            _expeditionItem
         );
+        _expeditionCharacter = null;
+        _expeditionItem      = null;
+    }
 
-        Debug.Log($"[인카운터 결과] {result}");
+    void ClearExpedition()
+    {
+        if (faceSlot != null) faceSlot.Clear();
+        if (itemSelector != null) itemSelector.ClearSelection();
     }
 
     void UpdateUI()

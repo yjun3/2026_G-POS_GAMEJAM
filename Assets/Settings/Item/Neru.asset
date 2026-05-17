@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Neru
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Neru
-  description: Ne? Ru\n[Luck +10 / Imm +30]
+  description: 'Ne? Ru\n[Luck -20 / Imm +20 / Def +20]'
   icon: {fileID: 8659958307982361146, guid: cd8ebe5ba30c14644ab253bcef74fbfa, type: 3}
-  hpMod: 0
-  luckMod: 10
-  immunityMod: 30
-  defenseMod: 0
   isBreakable: 1
+  hpMod: 0
+  luckMod: -20
+  immunityMod: 20
+  defenseMod: 20

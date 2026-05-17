@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Jacket
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Jacket
-  description: It was essential for first semester. (Not for someone)\n[Imm +15 / Def +20]
+  description: 'It was essential for first semester. (Not for someone)\n[Imm +15
+    / Def +15]'
   icon: {fileID: 6302570585876076669, guid: a53ac933bf8a6644a953a2e385141e75, type: 3}
+  isBreakable: 1
   hpMod: 0
   luckMod: 0
   immunityMod: 15
-  defenseMod: 20
-  isBreakable: 1
+  defenseMod: 15

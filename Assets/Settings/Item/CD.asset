@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: CD
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: CD
-  description: Game CD. It was essential for gaming.\n[Luck +20 / Imm +10]
+  description: 'Game CD. It was essential for gaming.\n[Def +20 / Imm +10]'
   icon: {fileID: -6082516365502995973, guid: 7b750079aa4494441abbcd09af2cf6f0, type: 3}
-  hpMod: 0
-  luckMod: 20
-  immunityMod: 10
-  defenseMod: 0
   isBreakable: 1
+  hpMod: 0
+  luckMod: 0
+  immunityMod: 10
+  defenseMod: 20

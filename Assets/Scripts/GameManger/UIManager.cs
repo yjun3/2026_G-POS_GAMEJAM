@@ -51,6 +51,7 @@ public class UIManager : MonoBehaviour
 
     public void OnResumeButtonClick()
     {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayButton();
         isPaused = false;
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
@@ -59,12 +60,14 @@ public class UIManager : MonoBehaviour
 
     public void OnGoToTitleButtonClick()
     {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayButton();
         Time.timeScale = 1f;
         SceneManager.LoadScene("TitleScene");
     }
 
     public void OnEquipButtonClick()
     {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayEquip();
         isEquipOpen = !isEquipOpen;
         Time.timeScale = isEquipOpen ? 0f : 1f;
         equipMenu.SetActive(isEquipOpen);
@@ -73,6 +76,7 @@ public class UIManager : MonoBehaviour
 
     public void OnEquipCancelButtonClick()
     {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayButton();
         isEquipOpen = false;
         Time.timeScale = 1f;
         equipMenu.SetActive(false);

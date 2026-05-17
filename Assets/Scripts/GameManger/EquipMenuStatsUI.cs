@@ -29,6 +29,16 @@ public class EquipMenuStatsUI : MonoBehaviour
 
     void Refresh()
     {
+        // 사망한 캐릭터 자동 해제
+        if (_character != null && CharacterManager.Instance != null
+            && !CharacterManager.Instance.IsAlive(_character))
+            _character = null;
+
+        // 파괴된 아이템 자동 해제
+        if (_item != null && ItemManager.Instance != null
+            && !ItemManager.Instance.IsAvailable(_item))
+            _item = null;
+
         if (_character == null) { ClearAll(); return; }
         if (ItemManager.Instance == null) { ClearAll(); return; }
 
@@ -63,15 +73,15 @@ public class EquipMenuStatsUI : MonoBehaviour
         Set(defenseText,  "Def",  CombinedLabel(_character.defense,  defMod,  eDefense));
     }
 
-    // 예시: "72  (60+20)" 또는 게임선호도 보정 시 "65  (60+20→×0.9)"
     static string CombinedLabel(int charBase, int itemMod, int effective)
     {
         int raw = charBase + itemMod;
-        if (itemMod == 0)
-            return raw == effective ? $"{effective}" : $"{effective}  ({charBase}→pref)";
-        return raw == effective
-            ? $"{effective}  ({charBase}+{itemMod})"
-            : $"{effective}  ({charBase}+{itemMod}→pref)";
+        string modStr = itemMod == 0 ? "" : $" {itemMod:+#;-#;0}";
+        bool prefApplied = raw != effective;
+        string prefStr = prefApplied ? " →pref" : "";
+        return (itemMod == 0 && !prefApplied)
+            ? $"{effective}"
+            : $"{effective}  ({charBase}{modStr}{prefStr})";
     }
 
     static void Set(TMP_Text t, string label, string value)

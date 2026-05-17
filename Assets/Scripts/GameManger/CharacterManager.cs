@@ -52,6 +52,7 @@ public class CharacterManager : MonoBehaviour
         if (d.currentHP == 0)
         {
             d.isAlive = false;
+            c.OnDied();
             GameManager.Instance.OnCharacterDied();
         }
     }
@@ -63,6 +64,7 @@ public class CharacterManager : MonoBehaviour
         d.currentHP = 0;
         d.isAlive = false;
         d.isInfected = infected;
+        c.OnDied();
         GameManager.Instance.OnCharacterDied();
     }
 }

@@ -14,6 +14,10 @@ public class CharacterFaceDraggable : MonoBehaviour, IBeginDragHandler, IDragHan
     [Range(0, 100)] public int immunity = 60;
     [Range(0, 100)] public int defense = 60;
 
+    [Header("Scene")]
+    public GameObject sceneObject; // 씬에서 보이는 캐릭터 오브젝트
+    public Sprite deadSprite;      // 사망 시 표시할 이미지
+
     Image _source;
     Canvas _rootCanvas;
     GameObject _ghost;
@@ -26,8 +30,17 @@ public class CharacterFaceDraggable : MonoBehaviour, IBeginDragHandler, IDragHan
 
     public Sprite FaceSprite => _source.sprite;
 
+    public void OnDied()
+    {
+        if (sceneObject != null) sceneObject.SetActive(false);
+        if (deadSprite != null) _source.sprite = deadSprite;
+    }
+
     public void OnBeginDrag(PointerEventData e)
     {
+        if (CharacterManager.Instance != null && !CharacterManager.Instance.IsAlive(this))
+            return;
+
         _ghost = new GameObject("DragGhost");
         var img = _ghost.AddComponent<Image>();
         img.sprite = _source.sprite;
@@ -42,7 +55,7 @@ public class CharacterFaceDraggable : MonoBehaviour, IBeginDragHandler, IDragHan
         MoveGhost(e);
     }
 
-    public void OnDrag(PointerEventData e) => MoveGhost(e);
+    public void OnDrag(PointerEventData e) { if (_ghost != null) MoveGhost(e); }
 
     public void OnEndDrag(PointerEventData e)
     {

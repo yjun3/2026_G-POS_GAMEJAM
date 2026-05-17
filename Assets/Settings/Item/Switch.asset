@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Switch
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Switch
-  description: Pokopia. Mario. Zelda. So what?\n[HP +10 / Luck +20]
+  description: 'Pokopia. Mario. Zelda. So what?\n[Luck +20]'
   icon: {fileID: -7626475746021201352, guid: 6c57494c3c4ace14a993c5811e601a45, type: 3}
-  hpMod: 10
+  isBreakable: 1
+  hpMod: 0
   luckMod: 20
   immunityMod: 0
   defenseMod: 0
-  isBreakable: 1

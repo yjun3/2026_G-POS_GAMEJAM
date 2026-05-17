@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Pillow
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Pillow
-  description: Essential for neru.\n[HP +25]
+  description: 'Essential for neru.\n[Imm +30]'
   icon: {fileID: -9052731393243098665, guid: 33882aa4cfdf2da499730fa48dcd6f96, type: 3}
-  hpMod: 25
-  luckMod: 0
-  immunityMod: 0
-  defenseMod: 0
   isBreakable: 1
+  hpMod: 0
+  luckMod: 0
+  immunityMod: 30
+  defenseMod: 0

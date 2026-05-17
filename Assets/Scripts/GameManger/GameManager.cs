@@ -4,13 +4,21 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    public enum GameState { Initializing, Playing, Paused }
+    public enum GameState { Initializing, Playing, Paused, Ending }
     public GameState State { get; private set; } = GameState.Initializing;
 
     public int MaxDays = 10;
     public int CharacterCount { get; private set; } = 5;
 
-    public bool CanInput => State != GameState.Initializing;
+    public bool CanInput => State == GameState.Playing;
+
+    bool _badEndingPending;
+    public bool ConsumeBadEndingPending()
+    {
+        bool v = _badEndingPending;
+        _badEndingPending = false;
+        return v;
+    }
 
     void Awake()
     {
@@ -26,9 +34,10 @@ public class GameManager : MonoBehaviour
     void Initialize()
     {
         CharacterCount = 5;
+        _badEndingPending = false;
         if (DayNightManager.Instance != null) DayNightManager.Instance.ResetToStart();
-        if (UIManager.Instance != null) UIManager.Instance.ResetUI();
-        if (ItemManager.Instance != null) ItemManager.Instance.Reset();
+        if (UIManager.Instance != null)       UIManager.Instance.ResetUI();
+        if (ItemManager.Instance != null)     ItemManager.Instance.Reset();
         if (CharacterManager.Instance != null) CharacterManager.Instance.ResetToStart();
         State = GameState.Playing;
     }
@@ -43,25 +52,26 @@ public class GameManager : MonoBehaviour
     {
         CharacterCount--;
         if (CharacterCount <= 0)
-            TriggerBadEnding();
+            _badEndingPending = true;  // 인카운터 후 결과창 닫힌 뒤에 처리
     }
 
-    void TriggerBadEnding()
-    {
-        Debug.Log("Bad Ending");
-        // TODO: 배드엔딩 씬 전환
-    }
-
-    // MaxDays 버텼을 때 생존 인원에 따라 엔딩 분기
+    // 날짜 종료 엔딩 (생존자 수 기반)
     public void TriggerEnding()
     {
+        State = GameState.Ending;
+        if (EndingUI.Instance == null) return;
+
         int alive = CharacterManager.Instance != null ? CharacterManager.Instance.AliveCount : 0;
-        if (alive == 0)
-            Debug.Log("Bad Ending");
-        else if (alive < 5)
-            Debug.Log("Normal Ending");
-        else
-            Debug.Log("True Ending");
-        // TODO: 엔딩 씬 전환
+        if (alive >= 5)     EndingUI.Instance.ShowTrue();
+        else if (alive >= 1) EndingUI.Instance.ShowNormal();
+        else                 EndingUI.Instance.ShowBad();
+    }
+
+    // 전원 사망 엔딩
+    public void TriggerBadEnding()
+    {
+        State = GameState.Ending;
+        if (EndingUI.Instance != null)
+            EndingUI.Instance.ShowBad();
     }
 }

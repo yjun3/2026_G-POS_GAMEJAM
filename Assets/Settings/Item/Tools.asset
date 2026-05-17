@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Tools
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Tools
-  description: I don't know why it is here.\n[Imm +10 / Def +30]
+  description: 'I don''t know why it is here.\n[Imm +10 / Def +10]'
   icon: {fileID: 8297851848855632693, guid: 541f4760fd9cb8d44984cd87007144d2, type: 3}
+  isBreakable: 1
   hpMod: 0
   luckMod: 0
   immunityMod: 10
-  defenseMod: 30
-  isBreakable: 1
+  defenseMod: 10

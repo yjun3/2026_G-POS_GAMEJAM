@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Backpack
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Backpack
-  description: Backpack! Let's go Lecture.\n[HP +15 / Def +15]
+  description: 'Backpack! Let''s go Lecture.\n[Def +15]'
   icon: {fileID: -9068309304258006280, guid: 49937b0e32962e749a24d7b53b0c2b5f, type: 3}
-  hpMod: 15
+  isBreakable: 1
+  hpMod: 0
   luckMod: 0
   immunityMod: 0
   defenseMod: 15
-  isBreakable: 1
