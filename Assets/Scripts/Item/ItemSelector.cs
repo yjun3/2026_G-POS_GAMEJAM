@@ -85,5 +85,6 @@ public class ItemSelector : MonoBehaviour
         _selected = null;
         _logoImage.sprite = _defaultLogoSprite;
         if (itemExplainText != null) itemExplainText.text = "";
+        if (statsUI != null) statsUI.SetItem(null);
     }
 }
